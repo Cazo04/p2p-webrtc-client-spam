@@ -15,6 +15,7 @@ const BROWSER_ARGS = [
   '--disable-background-timer-throttling',
   '--disable-backgrounding-occluded-windows',
   '--ignore-certificate-errors',
+  '--disable-features=WebRtcHideLocalIpsWithMdns'
 ];
 
 function stripComments(line) {
